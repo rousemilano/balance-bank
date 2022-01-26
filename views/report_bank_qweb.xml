@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_bank_qweb">
+        <t t-call="web.html_container">
+            <t t-call="web.external_layout">
+                <div class="page">
+                    <div class="oe_structure"/>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4">
+                                <div style="border: 1px solid #000; text-align:center; padding:20px; width:200px;">
+                                    LOGO
+                                </div>
+                            </div>
+                        <div class="col-4">
+                            <div style="text-align:center; font-weight:bold;">
+                                <span>COMPANY' NAME</span>
+                            </div>
+                            <div style="text-align:center; font-weight:bold;">
+                                <span>Bank Balances</span>
+                            </div>
+                            <div style="text-align:center; font-weight:bold;">
+                                <span>Al: </span>
+                                <span t-esc="date_only"/>
+                            </div>
+                        </div>
+                        <div class="col-4 pull-right" style="text-align:rigth;">
+                            <div style="text-align:right;">
+                                <span>Fecha:</span><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]]><span t-esc="date"/>
+                            </div>
+                            <div style="text-align:right;">
+                                <span>Hora:<![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]]></span><span t-esc="hours"/>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <table style="font-size:15px; max-width:400px; margin-top:20px;" class="container">
+                        <thead>
+                            <tr style="text-align:center; border-bottom: 1px solid #000;" class="o_force_ltr">
+                                <th style="border-top: 1px solid #000;">Bank</th>
+                                <th>Accounts</th>
+                                <th>Balance Start</th>
+                                <th>Income</th>
+                                <th>Expenses</th>
+                                <th>Balance End</th>
+                            </tr>
+                        </thead>       
+                        <tbody>
+                            <t t-foreach="bank_balance" t-as="bank">
+                                <tr>
+                                    <td style="padding-top:0; text-align:left;"><span t-esc="bank[0]"/></td>
+                                    <td style="padding-top:0; text-align:left;"><span t-esc="bank[1]"/></td>
+                                    <td style="padding-top:0; text-align:right;"><span t-esc="bank[2]"/></td>
+                                    <td style="padding-top:0; text-align:right;"><span t-esc="bank[3]"/></td>
+                                    <td style="padding-top:0; text-align:right;"><span t-esc="bank[4]"/></td>
+                                    <td style="padding-top:0; text-align:right;"><span t-esc="bank[5]"/></td>
+                                </tr>
+                            </t>
+                            <tr style="border-top: 1px solid #000;" class="o_force_ltr">
+                                <td style=""></td>
+                                <td style="text-align:right; font-weight:bold;">Total</td>
+                                <td style="text-align:right;"><span t-esc="total_balance_start_end[0][0]"/></td>
+                                <td style="text-align:right;"><span t-esc="total_income_expenses[0][0]"/></td>
+                                <td style="text-align:right;"><span t-esc="total_income_expenses[0][1]"/></td>
+                                <td style="text-align:right;"><span t-esc="total_balance_start_end[0][1]"/></td>
+                            </tr>
+                        </tbody>
+                    </table>     
+                </div>
+            </t>
+        </t>
+    </template>
+</odoo>

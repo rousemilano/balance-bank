@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!--SUBMENU BANK BALANCES IN MENU REPORTING-->
+        <menuitem 
+            id="submenu_bank_balances" 
+            name="Bank Balances" 
+            parent="account.menu_finance_reports" 
+            sequence="10"
+            groups="account.group_account_readonly,account.group_account_invoice"
+            action="action_report_bank_wizard"/>
+    </data>
+</odoo>

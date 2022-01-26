@@ -1,0 +1,174 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* report_bank
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20211014\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-25 23:45+0000\n"
+"PO-Revision-Date: 2022-01-25 23:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: report_bank
+#: model_terms:ir.ui.view,arch_db:report_bank.report_bank_qweb
+msgid "<span>Al: </span>"
+msgstr ""
+
+#. module: report_bank
+#: model_terms:ir.ui.view,arch_db:report_bank.report_bank_qweb
+msgid "<span>Bank Balances</span>"
+msgstr "Saldos de Bancos"
+
+#. module: report_bank
+#: model_terms:ir.ui.view,arch_db:report_bank.report_bank_qweb
+msgid "<span>COMPANY' NAME</span>"
+msgstr "NOMBRE DE LA EMPRESA"
+
+#. module: report_bank
+#: model_terms:ir.ui.view,arch_db:report_bank.report_bank_qweb
+msgid ""
+"<span>Fecha:</span>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"
+msgstr ""
+
+#. module: report_bank
+#: model_terms:ir.ui.view,arch_db:report_bank.report_bank_qweb
+msgid ""
+"<span>Hora:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</span>"
+msgstr ""
+
+#. module: report_bank
+#: model_terms:ir.ui.view,arch_db:report_bank.report_bank_qweb
+msgid "Accounts"
+msgstr "Cuentas"
+
+#. module: report_bank
+#: model_terms:ir.ui.view,arch_db:report_bank.report_bank_qweb
+msgid "Balance End"
+msgstr "Saldo Final"
+
+#. module: report_bank
+#: model_terms:ir.ui.view,arch_db:report_bank.report_bank_qweb
+msgid "Balance Start"
+msgstr "Saldo Inicial"
+
+#. module: report_bank
+#: model_terms:ir.ui.view,arch_db:report_bank.report_bank_qweb
+msgid "Bank"
+msgstr "Bancos"
+
+#. module: report_bank
+#: model:ir.ui.menu,name:report_bank.submenu_bank_balances
+msgid "Bank Balances"
+msgstr "Saldos de Bancos"
+
+#. module: report_bank
+#: model_terms:ir.ui.view,arch_db:report_bank.report_bank_wizard
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: report_bank
+#: model:ir.model.fields,field_description:report_bank.field_report_bank__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: report_bank
+#: model:ir.model.fields,field_description:report_bank.field_report_bank__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: report_bank
+#: model:ir.model.fields,field_description:report_bank.field_report_bank__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: report_bank
+#: model:ir.model.fields.selection,name:report_bank.selection__report_bank__file_selection__excel
+msgid "EXCEL"
+msgstr ""
+
+#. module: report_bank
+#: model_terms:ir.ui.view,arch_db:report_bank.report_bank_qweb
+msgid "Expenses"
+msgstr "Egresos"
+
+#. module: report_bank
+#: model_terms:ir.ui.view,arch_db:report_bank.report_bank_wizard
+msgid "Generar"
+msgstr ""
+
+#. module: report_bank
+#: model:ir.model.fields,field_description:report_bank.field_report_bank__id
+msgid "ID"
+msgstr ""
+
+#. module: report_bank
+#: model_terms:ir.ui.view,arch_db:report_bank.report_bank_qweb
+msgid "Income"
+msgstr "Ingresos"
+
+#. module: report_bank
+#: model_terms:ir.ui.view,arch_db:report_bank.report_bank_qweb
+msgid "LOGO"
+msgstr ""
+
+#. module: report_bank
+#: model:ir.model.fields,field_description:report_bank.field_report_bank____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: report_bank
+#: model:ir.model.fields,field_description:report_bank.field_report_bank__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: report_bank
+#: model:ir.model.fields,field_description:report_bank.field_report_bank__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: report_bank
+#: model:ir.model.fields.selection,name:report_bank.selection__report_bank__file_selection__pdf
+msgid "PDF"
+msgstr ""
+
+#. module: report_bank
+#: model:ir.actions.act_window,name:report_bank.action_report_bank_wizard
+#: model:ir.actions.report,name:report_bank.action_report_bank
+#: model:ir.actions.report,print_report_name:report_bank.action_report_bank
+msgid "Report Bank"
+msgstr "Reporte Saldos de Bancos"
+
+#. module: report_bank
+#: model_terms:ir.ui.view,arch_db:report_bank.report_bank_wizard
+msgid "Report Options"
+msgstr ""
+
+#. module: report_bank
+#: code:addons/report_bank/wizard/report_bank_wizard.py:0
+#, python-format
+msgid ""
+"Surely the data is not complete or there are no records related to bank "
+"accounts, please check or contact the system administrator, sorry for the "
+"inconvenience caused."
+msgstr "Seguramente no están los datos completos o no existen registros relacionados a las cuentas bancarias, por favor verifique o comuniquese con el administrador de sistema, dísculpe las molestias ocasionadas."
+
+#. module: report_bank
+#: model_terms:ir.ui.view,arch_db:report_bank.report_bank_qweb
+msgid "Total"
+msgstr ""
+
+#. module: report_bank
+#: model:ir.model.fields,field_description:report_bank.field_report_bank__file_selection
+msgid "Type File"
+msgstr "Tipo de archivo"
+
+#. module: report_bank
+#: model:ir.model,name:report_bank.model_report_bank
+msgid "report.bank"
+msgstr ""
